@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blog</h1>
+    <form action="" >
+        <label for="">Title:</label><sup>*</sup>
+        <input type="text"  id="title" placeholder="Title here" required><br><br>
+        <label for="">Author:</label><sup>*</sup>
+        <input type="text" id="author" placeholder="Author here" required ><br><br>
+        <label for="">Description:</label><sup>*</sup>
+        <textarea id = "description" name="" id="" cols="10" rows="5"  ></textarea><br><br>
+        <label for="">Genre:</label><sup>*</sup>
+        <select id="genre">
+            <option value="Technology">Technology</option>
+            <option value=Health">Health</option>
+            <option value="Sports">Sports</option>
+        </select><br><br>
+        <button onclick="addblog()">add blog</button>
+    </form><br><br>
+    <button onclick="fun1()">Show Blogs</button>
+    <div id="mydiv"></div>
+    <script src="./script2.js"></script>
+</body>
+</html>
